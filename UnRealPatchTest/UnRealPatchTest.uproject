@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{49BD3805-43EC-5585-5493-0C9608532D80}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnRealPatchTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
