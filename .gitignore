@@ -72,3 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#忽略的目录
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+packages/
+Saved/
