@@ -213,7 +213,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -221,7 +221,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -229,7 +229,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -237,7 +237,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -245,7 +245,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -253,7 +253,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -261,7 +261,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -269,7 +269,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -277,7 +277,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -285,7 +285,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -293,7 +293,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -301,7 +301,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -309,7 +309,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -317,7 +317,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test_Program|arm64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -325,7 +325,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
@@ -971,7 +971,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>$(IncludePath);D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Launch\Private;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\HeadlessChaosPerf\Private;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ApplicationCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\ApplicationCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Core;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\TraceLog\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Core\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\TraceLog;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\RHI;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\RHI\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\CoreUObject;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Projects;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Json;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Json\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\GeometricObjects;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Plugins\Experimental\GeometryProcessing\Source;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Plugins\Experimental\GeometryProcessing\Source\GeometricObjects\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\MeshUtilitiesCommon;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\MeshUtilitiesCommon\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ChaosVehiclesCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosVehicles;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Chaos;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ChaosCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\ThirdParty\Intel;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Voronoi;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\ThirdParty;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\HeadlessChaosPerf;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Programs;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Launch\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\PhysicsCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\PhysicsCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\DeveloperSettings;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\DeveloperSettings\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <IncludePath>$(IncludePath);D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Launch\Private;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\HeadlessChaosPerf\Private;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ApplicationCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\ApplicationCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Core;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\TraceLog\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Core\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\TraceLog;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\RHI;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\RHI\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\CoreUObject;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Projects;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Json;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Json\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\GeometricObjects;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Plugins\Experimental\GeometryProcessing\Source;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Plugins\Experimental\GeometryProcessing\Source\GeometricObjects\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\MeshUtilitiesCommon;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\MeshUtilitiesCommon\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ChaosVehiclesCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosVehicles;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Chaos;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\ChaosCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\ThirdParty\Intel;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\Voronoi;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\ThirdParty;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\HeadlessChaosPerf;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Programs;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Launch\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\PhysicsCore;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\PhysicsCore\Public;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Inc\DeveloperSettings;D:\Project\github\UnrealEngine-4.27.2-release\Engine\Source\Runtime\DeveloperSettings\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>

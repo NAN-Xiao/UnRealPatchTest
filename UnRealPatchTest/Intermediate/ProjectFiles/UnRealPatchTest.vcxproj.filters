@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnRealPatchTest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EE5A912C-A6A7-4AD5-A0CB-13E9BCF1F038}</UniqueIdentifier>
+      <UniqueIdentifier>{6F3D7618-9BB8-4F00-9A9F-1F49FB4DA57E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnRealPatchTest.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{45AC8CDD-258B-473A-9752-074878C9AC48}</UniqueIdentifier>
+      <UniqueIdentifier>{B52A3373-9C20-4073-8EC7-FAD5AF67C698}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,791 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{9A557AF8-F69E-496B-9492-ADCB980944BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher">
+      <UniqueIdentifier>{6946C4CF-42C2-45CA-8026-50AA36787914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher\HotPatcher">
+      <UniqueIdentifier>{298B0BC3-592F-4A64-8134-476C86FC07EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source">
+      <UniqueIdentifier>{A7F7EF60-B320-41ED-A01B-FFAFDF679510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature">
+      <UniqueIdentifier>{EC762E72-986F-4581-8845-CC9B30B0F197}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\BinariesPatchFeature.Build.cs">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private">
+      <UniqueIdentifier>{E178CA4E-8C9E-4FC5-AE86-C4245D594F15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private\BinariesPatchFeature.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public">
+      <UniqueIdentifier>{CAE07E10-BEE8-4D65-8445-6041A044FC62}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public\BinariesPatchFeature.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\HotPatcher.uplugin">
+      <Filter>Plugins\HotPatcher\HotPatcher</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Resources">
+      <UniqueIdentifier>{DC83093E-994F-4B9F-8C2E-B8B5B75609D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\HotPatcher\HotPatcher\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Resources\Icon128.png">
+      <Filter>Plugins\HotPatcher\HotPatcher\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\PackMenu">
+      <UniqueIdentifier>{89A351C1-5000-4801-A989-E6F7C8B3C7B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PackMenu\PackMenu.uplugin">
+      <Filter>Plugins\PackMenu</Filter>
+    </None>
+    <Filter Include="Plugins\PackMenu\Resources">
+      <UniqueIdentifier>{79C45675-8048-4E7D-92BB-C3B13EA71505}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PackMenu\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\PackMenu\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\PackMenu\Resources\Icon128.png">
+      <Filter>Plugins\PackMenu\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore">
+      <UniqueIdentifier>{07298E07-831B-436E-96FE-7FE2914A39FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\HotPatcherCore.Build.cs">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes">
+      <UniqueIdentifier>{3D7A7BAD-4B83-4A2F-ABC1-68851A75CEA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets">
+      <UniqueIdentifier>{FC80F2BC-CD02-4F08-9638-853C562CA3BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\CommandletHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotPatcherCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotPatcherCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotPatcherCommandletBase.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotPluginCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotPluginCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotReleaseCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotReleaseCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotShaderPatchCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\HotShaderPatchCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker">
+      <UniqueIdentifier>{FD6628D9-9761-4576-A554-2002CB587CC2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker\HotCookerCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker\HotCookerCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker\HotSingleCookerCommandlet.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker\HotSingleCookerCommandlet.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private">
+      <UniqueIdentifier>{401E60DC-135C-48C9-85FB-1AAA2774BE41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\FlibHotPatcherCoreHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\HotPatcherCore.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\HotPatcherDelegates.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker">
+      <UniqueIdentifier>{FDA937CF-D9B8-414E-8CA7-B5A63650F731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker">
+      <UniqueIdentifier>{CC4A9C5D-4600-4D65-B625-68A80E62C4CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker\FlibHotCookerHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker\SingleCookerProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch">
+      <UniqueIdentifier>{5E06DA1E-5BDF-4E82-A813-D46B3A34EEE7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch\PatcherProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch\ReleaseProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature">
+      <UniqueIdentifier>{20E4A89B-0985-43FA-980D-A4FDCA17C7BA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature\GameFeatureProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch">
+      <UniqueIdentifier>{F8BC5915-E17C-4AB1-A186-0D232CB157EF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch\FCookShaderCollectionProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch\FlibShaderCodeLibraryHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch\FlibShaderPatchHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch\ShaderPatchProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public">
+      <UniqueIdentifier>{00B396F9-2ABC-4A37-B8CD-8DF30184BC04}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\FlibHotPatcherCoreHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\HotPatcherCore.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\HotPatcherDelegates.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\HotPatcherSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase">
+      <UniqueIdentifier>{8F381A5B-0ACB-4B0F-8889-D5E12507B1E7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase\CommandletHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase\HotPatcherCommandletBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker">
+      <UniqueIdentifier>{54368BEC-A14A-471A-930F-A4FDA92EB01A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\HotPatcherCookerSettingBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker">
+      <UniqueIdentifier>{6F5C9A66-BDBB-4550-B659-293DE00CC025}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker\FCookShaderCollectionProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker\FlibHotCookerHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker\FSingleCookerSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker\SingleCookerProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch">
+      <UniqueIdentifier>{883B98A5-F61C-4722-B3BE-08E1530EA327}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\HotPatcherProxyBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\IPatchableInterface.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\PatcherProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\ReleaseProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\ReleaseSettingsDetails.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature">
+      <UniqueIdentifier>{71B00F2B-7141-4F2B-992F-E1AA1EAB4851}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature\FGameFeaturePackagerSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature\GameFeatureProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch">
+      <UniqueIdentifier>{3611A274-C62E-4267-8C2E-4119C9789AC5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch\FExportShaderPatchSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch\FlibShaderCodeLibraryHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch\FlibShaderPatchHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch\ShaderPatchProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils">
+      <UniqueIdentifier>{D6843439-91A8-4F6C-B0A1-8812FDB363CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils\FProcWorkerThread.hpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils</Filter>
+    </None>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils\FThreadUtils.hpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor">
+      <UniqueIdentifier>{8D0179F3-08DA-4FA4-8A3E-985B3E4359EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\HotPatcherEditor.Build.cs">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private">
+      <UniqueIdentifier>{BC4EBB80-407B-4A03-AAE1-176E223411DD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\FlibHotPatcherEditorHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\HotPatcherActionManager.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\HotPatcherCommands.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\HotPatcherEditor.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\HotPatcherStyle.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\MissionNotificationProxy.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SHotPatcher.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SHotPatcher.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SHotPatcherPageBase.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SHotPatcherWidgetBase.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker">
+      <UniqueIdentifier>{3835D518-B280-4A74-AD0A-ADC82EAF6622}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\SCookersPage.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\SCookersPage.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker">
+      <UniqueIdentifier>{91D2A989-FB03-4A41-BEAE-081F8A8849EC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\IOriginalCookerChildWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookedPlatforms.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookedPlatforms.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookMaps.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookMaps.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookSetting.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookSetting.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookSpecifyCookFilter.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherCookSpecifyCookFilter.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SHotPatcherPlatformListRow.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SOriginalCookWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SOriginalCookWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SpecifyCookFilterSetting.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SProjectCookMapListRow.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\SProjectCookSettingsListRow.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch">
+      <UniqueIdentifier>{846CE87D-8D46-4FE1-B5DC-2E9AD101B84E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\ReleaseSettingsDetails.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\SHotPatcherInformations.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\SHotPatcherPatchWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\SHotPatcherReleaseWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\SPatchersPage.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions">
+      <UniqueIdentifier>{B7A19006-DB82-4C85-A1EC-69210DA94195}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions\AssetTypeActions_PrimaryAssetLabel.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions\AssetTypeActions_PrimaryAssetLabel.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature">
+      <UniqueIdentifier>{D0DA1339-9070-4F13-ACC8-3C85D4ED5DF3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature\SGameFeaturePackageWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature\SGameFeaturePackageWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch">
+      <UniqueIdentifier>{F9D765CB-0448-4953-9A07-6F634F64E27A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch\SShaderPatchWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater">
+      <UniqueIdentifier>{E6154E71-26CA-4836-AEB1-452C4355EA22}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater\SVersionUpdaterWidget.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater\SVersionUpdaterWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater\VersionUpdaterStyle.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater\VersionUpdaterStyle.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public">
+      <UniqueIdentifier>{69E4A033-5D58-46AC-B138-962DC1CD068C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\FlibHotPatcherEditorHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\HotPatcherActionManager.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\HotPatcherCommands.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\HotPatcherEditor.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\HotPatcherStyle.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\MissionNotificationProxy.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\SHotPatcherPageBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\SHotPatcherWidgetBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker">
+      <UniqueIdentifier>{A14C5244-558B-4730-B561-C4ADA4F58E41}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker\SHotPatcherCookerBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch">
+      <UniqueIdentifier>{5C1F44F9-79C2-4637-9FBE-898A396FD119}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch\SHotPatcherInformations.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch\SHotPatcherPatchWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch\SHotPatcherReleaseWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch\SPatchersPage.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model">
+      <UniqueIdentifier>{8599C81C-9DBF-4682-8CE8-B50F34A56B2B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model\FCookersModeContext.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model\FHotPatcherContextBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model\FOriginalCookerContext.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model\FPatchersModeContext.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch">
+      <UniqueIdentifier>{BEA6BDF2-AAC7-4BF1-B0CC-3147552ED967}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch\SShaderPatchWidget.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime">
+      <UniqueIdentifier>{F5B652F8-7EC9-41F7-A4CC-19DEB730AB05}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\HotPatcherRuntime.Build.cs">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private">
+      <UniqueIdentifier>{DD88EA3D-5A7C-4FEB-B389-242C3112C71B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibAssetManageHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibPakHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibPakReader.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibPatchParserHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibShaderPipelineCacheHelper.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\HACK_PRIVATE_MEMBER_UTILS.hpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\HotPatcher.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\HotPatcherLog.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\MountListener.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes">
+      <UniqueIdentifier>{053DD505-24B0-4802-9563-3915F6B8E7C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\FBinariesPatchConfig.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager">
+      <UniqueIdentifier>{F49D8F5D-73C0-49E9-A84E-BEC0DA590DF2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager\FAssetDependenciesInfo.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch">
+      <UniqueIdentifier>{A5BA5B57-CD80-4E19-AF31-B2257CFFFDD5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch\FExportPatchSettings.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch\FExportReleaseSettings.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch\HotPatcherContext.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch\HotPatcherSettingBase.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser">
+      <UniqueIdentifier>{8B5C5845-8B32-4206-9166-9856CFFDF59D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser\FDefaultAssetDependenciesParser.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser\FOldAssetDependenciesParser.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser">
+      <UniqueIdentifier>{088853F5-9015-473A-BE22-C50374384980}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\FReleasePaklistParser.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\FReleasePaklistParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\FReleasePakParser.cpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\FReleasePakParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\IReleaseParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public">
+      <UniqueIdentifier>{D590CA41-E01F-4E62-A5D5-D1BFB88EB511}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\FlibAssetManageHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\FlibPatchParserHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\FlibShaderPipelineCacheHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\HotPatcherLog.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\HotPatcherRuntime.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\MountListener.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes">
+      <UniqueIdentifier>{B5F995FB-84AF-4544-9279-8DF400CC6F7A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\EPatcherPhase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\ETargetPlatform.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FBinariesPatchConfig.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FChunkInfo.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FCookerConfig.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FCookShaderOptions.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FExternDirectoryInfo.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FExternFileInfo.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FHotPatcherAssetDependency.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FHotPatcherVersion.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FIoStoreSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FlibPakHelper.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FlibPakReader.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPackageTracker.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPakEncryptionKeys.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPakFileInfo.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPakVersion.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPatcherSpecifyAsset.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPatchVersionAssetDiff.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPatchVersionDiff.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPatchVersionExternDiff.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPlatformBasePak.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPlatformExternAssets.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FPlatformExternFiles.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FReplaceText.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\FUnrealPakSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\HotPatcherBaseTypes.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager">
+      <UniqueIdentifier>{18A27E5A-BD66-4524-B572-EEF0EEC9B6B7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager\FAssetDependenciesDetail.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager\FAssetDependenciesInfo.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager\FAssetDetail.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager\FFileArrayDirectoryVisitor.hpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
+    </None>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch">
+      <UniqueIdentifier>{F86C304B-25C4-421B-A15F-9193D1B1027C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\FExportPatchSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\FExportReleaseSettings.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\HotPatcherContext.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\HotPatcherSettingBase.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\ScopedSlowTaskContext.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\TimeRecorder.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser">
+      <UniqueIdentifier>{F7484111-67D3-4400-821A-3A264256BC36}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser\FDefaultAssetDependenciesParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser\FOldAssetDependenciesParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser\IAssetDependenciesParser.h">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates">
+      <UniqueIdentifier>{57212457-8EEE-4A05-83AB-359C594E723C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates\HotPatcherTemplateHelper.hpp">
+      <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates</Filter>
+    </None>
+    <Filter Include="Plugins\PackMenu\Source">
+      <UniqueIdentifier>{DE1820D4-9E82-43E3-9DF2-5AD6FFF53A28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PackMenu\Source\PackMenu">
+      <UniqueIdentifier>{0C159D42-B613-42CD-866F-0924C3FF384E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PackMenu\Source\PackMenu\PackMenu.Build.cs">
+      <Filter>Plugins\PackMenu\Source\PackMenu</Filter>
+    </None>
+    <Filter Include="Plugins\PackMenu\Source\PackMenu\Private">
+      <UniqueIdentifier>{446EDEE6-7B2D-4E1B-95A0-4EEBF077C865}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenu.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenuCommands.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenuStyle.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookPackInfoMation.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookPackInfoMation.h">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\PackMenu\Source\PackMenu\Private\CookPage">
+      <UniqueIdentifier>{CD614E9B-3440-499A-A772-27102C77481E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\CookPage\CookPage.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private\CookPage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\CookPage\CookPage.h">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Private\CookPage</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\PackMenu\Source\PackMenu\Public">
+      <UniqueIdentifier>{61A62BE8-7EAD-4566-B9D8-BD650941B908}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenu.h">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenuCommands.h">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenuStyle.h">
+      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\UnRealPatchTest">
-      <UniqueIdentifier>{5098621D-9BD1-4349-A911-0A4AACE336CB}</UniqueIdentifier>
+      <UniqueIdentifier>{1EC81780-0D18-4E2D-96BA-8801B04006AD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnRealPatchTest\MyActor.cpp">
       <Filter>Source\UnRealPatchTest</Filter>
