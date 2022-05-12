@@ -4,6 +4,12 @@
 #include "SCookers.h"
 #include "SlateOptMacros.h"
 
+
+
+#include "Widgets/Input/SHyperlink.h"
+#include "Widgets/Layout/SSeparator.h"
+#include "Widgets/Layout/SExpandableArea.h"
+
 BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 void SCookers::Construct(const FArguments& InArgs)
 {
@@ -23,7 +29,19 @@ void SCookers::Construct(const FArguments& InArgs)
 			[
 				SNew(SVerticalBox)
 				+SVerticalBox::Slot()
+				.AutoHeight()
 				[
+					SNew(SExpandableArea)
+					//.AreaTitle(LOCTEXT("CookMaps", "Map(s)"))
+					.InitiallyCollapsed(true)
+					.Padding(8.0)
+					.BodyContent()
+					
+					[
+						SNew(STextBlock)
+						.Text(FText::FromString("11"))
+					]
+
 				
 				]
 			
