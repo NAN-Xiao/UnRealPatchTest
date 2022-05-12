@@ -5,7 +5,7 @@
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\ReadMe.md" />
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{B0E4783C-CBB1-45A9-90EB-63541437B231}</UniqueIdentifier>
+      <UniqueIdentifier>{9C1D06D3-5C2A-41F1-A8BA-97CDF576710F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
       <Filter>Private</Filter>
@@ -47,7 +47,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{B3CA9823-E447-4710-903C-FD0E687CF317}</UniqueIdentifier>
+      <UniqueIdentifier>{C72F6591-E1C7-4D93-BB6E-50E57E81B67D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
       <Filter>Private\Windows</Filter>
@@ -56,7 +56,7 @@
       <Filter>Private\Windows</Filter>
     </ClInclude>
     <Filter Include="Private\Windows\Resources">
-      <UniqueIdentifier>{49A31ED0-A21A-436D-8673-862C06979E07}</UniqueIdentifier>
+      <UniqueIdentifier>{BB2D4E7B-D56B-4071-B1BE-8935F0BCCEDB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico">
       <Filter>Private\Windows\Resources</Filter>
@@ -71,7 +71,7 @@
       <Filter>Private\Windows\Resources</Filter>
     </None>
     <Filter Include="Tests">
-      <UniqueIdentifier>{50DEFE72-2406-4BAD-AA4E-AA4C0109438A}</UniqueIdentifier>
+      <UniqueIdentifier>{E8E35231-07A9-47F8-B8BD-011A5B0A3C74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py">
       <Filter>Tests</Filter>

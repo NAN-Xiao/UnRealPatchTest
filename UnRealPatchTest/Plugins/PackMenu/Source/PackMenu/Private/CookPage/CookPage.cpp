@@ -10,6 +10,7 @@
 #include "CoreMinimal.h"
 #include "Styling/SlateStyle.h"
 #include "SCookPackInfoMation.h"
+#include "SCookers.h"
 #define LOCTEXT_NAMESPACE "FPackMenuModule"
 
 
@@ -30,6 +31,11 @@ void CookPage::Construct(const FArguments& InArgs)
 			[
 				SNew(SCookPackInfoMation)
 
+			]
+			+ SVerticalBox::Slot()
+			.AutoHeight()
+			[
+				SNew(SCookers)
 			]
 
 		]

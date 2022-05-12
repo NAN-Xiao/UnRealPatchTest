@@ -27,7 +27,6 @@ void SHotPatcherCookMaps::Construct(const FArguments& InArgs, TSharedPtr<FHotPat
 				(
 					SNew(SHeaderRow)
 					.Visibility(EVisibility::Collapsed)
-
 					+ SHeaderRow::Column("MapName")
 					.DefaultLabel(LOCTEXT("MapListMapNameColumnHeader", "Map"))
 					.FillWidth(1.0f)

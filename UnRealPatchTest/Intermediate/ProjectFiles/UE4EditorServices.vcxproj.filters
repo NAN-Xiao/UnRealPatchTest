@@ -4,16 +4,16 @@
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{E5690386-F08F-41A1-A650-DFD8D74A1CC1}</UniqueIdentifier>
+      <UniqueIdentifier>{8E315428-700D-43F4-9828-FF099E06AC17}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{A9FADCAD-DCF4-4B7A-85A7-E4557F848F47}</UniqueIdentifier>
+      <UniqueIdentifier>{5B39AFD5-8EBA-4A55-95BD-A3690F62D487}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Linux\UE4EditorServicesMain.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-      <UniqueIdentifier>{FE2510F4-5A8C-47A5-80DD-C54E94D5E9DE}</UniqueIdentifier>
+      <UniqueIdentifier>{A84C9345-1AEA-42B5-837A-63F3846D1067}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
       <Filter>Private\Mac</Filter>
@@ -25,16 +25,16 @@
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{13FC9F86-1664-4603-A3B7-65A886D26D73}</UniqueIdentifier>
+      <UniqueIdentifier>{CC147B07-B078-4F39-9C7C-8E07A7125587}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Resources">
-      <UniqueIdentifier>{C5B8BEE7-0FFB-483A-B0A3-E8244130EF71}</UniqueIdentifier>
+      <UniqueIdentifier>{D5BABCC9-6EF9-426B-800B-0FB3F03A4BFC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{D51FCFF0-8E63-4B77-ABFD-D81C0F02EB81}</UniqueIdentifier>
+      <UniqueIdentifier>{147E8234-D385-4141-9C29-42D128DBE276}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\Mac\UE4EditorServices\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>

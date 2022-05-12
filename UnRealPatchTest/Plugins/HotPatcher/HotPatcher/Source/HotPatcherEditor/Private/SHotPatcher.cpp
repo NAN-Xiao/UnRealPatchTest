@@ -101,7 +101,7 @@ void SHotPatcher::Construct(const FArguments& InArgs)
 					[
 						SNew(STextBlock)
 						.Font(FCoreStyle::GetDefaultFontStyle("Patcher", 13))
-					.Text(LOCTEXT("ProjectPatchSectionHeader", "Patcher"))
+						.Text(LOCTEXT("ProjectPatchSectionHeader", "Patcher"))
 					]
 					+ SGridPanel::Slot(1, 2)
 					.Padding(32.0f, 0.0f, 8.0f, 0.0f)

@@ -132,7 +132,7 @@ EVisibility SCookersPage::HandleOperatorConfigVisibility()const
 EVisibility SCookersPage::HandleImportProjectConfigVisibility() const
 {
 	EVisibility rVisibility = EVisibility::Hidden;
-	if(GetContext()->GetModeName().IsEqual(TEXT("ByOriginal")))
+	if(GetContext()->GetModeName().IsEqual(TEXT("z")))
 	{
 		rVisibility = EVisibility::Visible;
 	}

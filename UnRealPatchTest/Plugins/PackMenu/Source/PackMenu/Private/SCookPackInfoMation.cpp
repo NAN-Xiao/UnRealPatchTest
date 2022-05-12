@@ -13,7 +13,6 @@ static FMargin margin = FMargin(10.0f, 10.0f, 10.0f, 10.0f);
 BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 void SCookPackInfoMation::Construct(const FArguments& InArgs)
 {
-	
 	ChildSlot
 		[
 			SNew(SBorder)

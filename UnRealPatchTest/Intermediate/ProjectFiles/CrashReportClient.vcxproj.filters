@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3B3F6E7D-708C-42F5-A6FC-4C5CCDE313C2}</UniqueIdentifier>
+      <UniqueIdentifier>{4002D63B-9A4C-4F2D-A06C-E466D02B4B47}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
@@ -11,7 +11,7 @@
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs" />
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{C60F0E88-392C-4AF6-8055-467F159E4F70}</UniqueIdentifier>
+      <UniqueIdentifier>{B791A292-C1F2-4352-97F3-0A825F2E977A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
       <Filter>Private</Filter>
@@ -56,34 +56,34 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{F05E4BDE-961E-489B-9A74-FDB036D415F2}</UniqueIdentifier>
+      <UniqueIdentifier>{407169F2-D478-4FA5-922D-F607886364ED}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-      <UniqueIdentifier>{93335CA0-D5C2-4AEB-A62C-A1C59B1A8042}</UniqueIdentifier>
+      <UniqueIdentifier>{7A9E36DB-5846-44B0-87FE-71377AEF6C88}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{B4EB573B-F192-47BB-A16F-2899DDD9CADC}</UniqueIdentifier>
+      <UniqueIdentifier>{17382C67-8A27-4AB6-A7C8-781EEED94BB2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Public">
-      <UniqueIdentifier>{DA55C0AA-6399-4850-A9F6-A5A2374ACB46}</UniqueIdentifier>
+      <UniqueIdentifier>{47787061-2C6C-4F4C-B27B-AD4D2DBF643E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h">
       <Filter>Public</Filter>
     </ClInclude>
     <Filter Include="Resources">
-      <UniqueIdentifier>{1DDBBD25-DCEE-490E-9C3C-4428E1346204}</UniqueIdentifier>
+      <UniqueIdentifier>{EC9EEC62-67DE-4A46-A86B-D8B2FC3E52F6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{36D17CD8-FD27-4674-A70A-F04A9988D259}</UniqueIdentifier>
+      <UniqueIdentifier>{41B39311-665C-4C5A-AD1D-ADCF37FFA634}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\CrashReportClient\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>

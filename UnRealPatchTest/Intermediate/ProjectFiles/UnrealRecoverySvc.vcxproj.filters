@@ -3,14 +3,14 @@
   <ItemGroup>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{61D2061E-E56D-4CD2-A7C1-78175FA1AEF6}</UniqueIdentifier>
+      <UniqueIdentifier>{84C66334-42AB-41FE-98E3-57DCF4FB8D1A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{3F8C458C-B0DB-4733-A9FF-7C9F2DD03A3F}</UniqueIdentifier>
+      <UniqueIdentifier>{782C5A7B-7DE7-438B-B346-E884968D5BAE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\..\github\UnrealEngine-4.27.2-release\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
       <Filter>Private</Filter>

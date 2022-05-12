@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnRealPatchTest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6F3D7618-9BB8-4F00-9A9F-1F49FB4DA57E}</UniqueIdentifier>
+      <UniqueIdentifier>{B1977281-465B-46CF-B6FF-EC8D4EF82068}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnRealPatchTest.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B52A3373-9C20-4073-8EC7-FAD5AF67C698}</UniqueIdentifier>
+      <UniqueIdentifier>{1CE46760-74E8-4FCE-8DF0-DDDF0303C401}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,31 +24,31 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{9A557AF8-F69E-496B-9492-ADCB980944BB}</UniqueIdentifier>
+      <UniqueIdentifier>{BA203734-FF60-455B-B6F4-86408BA92134}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher">
-      <UniqueIdentifier>{6946C4CF-42C2-45CA-8026-50AA36787914}</UniqueIdentifier>
+      <UniqueIdentifier>{0A8AE1D4-7804-4FA3-872D-5CB881A77399}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher\HotPatcher">
-      <UniqueIdentifier>{298B0BC3-592F-4A64-8134-476C86FC07EC}</UniqueIdentifier>
+      <UniqueIdentifier>{3F86100D-C9DA-4936-B7C2-21A911F80DE7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source">
-      <UniqueIdentifier>{A7F7EF60-B320-41ED-A01B-FFAFDF679510}</UniqueIdentifier>
+      <UniqueIdentifier>{6DF58D26-4EF2-4BAB-A401-609F8CD78248}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature">
-      <UniqueIdentifier>{EC762E72-986F-4581-8845-CC9B30B0F197}</UniqueIdentifier>
+      <UniqueIdentifier>{6C04C429-F064-441A-B588-DA3F6E7182AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\BinariesPatchFeature.Build.cs">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private">
-      <UniqueIdentifier>{E178CA4E-8C9E-4FC5-AE86-C4245D594F15}</UniqueIdentifier>
+      <UniqueIdentifier>{87D3272D-12EF-4DA1-BE7F-92282A562512}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private\BinariesPatchFeature.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public">
-      <UniqueIdentifier>{CAE07E10-BEE8-4D65-8445-6041A044FC62}</UniqueIdentifier>
+      <UniqueIdentifier>{E1E72299-4219-4421-9EFA-C42725A37CA9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public\BinariesPatchFeature.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\BinariesPatchFeature\Public</Filter>
@@ -57,7 +57,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Resources">
-      <UniqueIdentifier>{DC83093E-994F-4B9F-8C2E-B8B5B75609D8}</UniqueIdentifier>
+      <UniqueIdentifier>{89158CE5-CD6E-493D-A5DD-6F5F5867EAD4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\HotPatcher\HotPatcher\Resources</Filter>
@@ -66,13 +66,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Resources</Filter>
     </None>
     <Filter Include="Plugins\PackMenu">
-      <UniqueIdentifier>{89A351C1-5000-4801-A989-E6F7C8B3C7B9}</UniqueIdentifier>
+      <UniqueIdentifier>{0D398A7D-18C5-46F7-8CF6-41B2BD5C6518}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PackMenu\PackMenu.uplugin">
       <Filter>Plugins\PackMenu</Filter>
     </None>
     <Filter Include="Plugins\PackMenu\Resources">
-      <UniqueIdentifier>{79C45675-8048-4E7D-92BB-C3B13EA71505}</UniqueIdentifier>
+      <UniqueIdentifier>{D95DAFB8-DD30-45A7-8541-7BD4915CADFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PackMenu\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\PackMenu\Resources</Filter>
@@ -81,16 +81,16 @@
       <Filter>Plugins\PackMenu\Resources</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore">
-      <UniqueIdentifier>{07298E07-831B-436E-96FE-7FE2914A39FA}</UniqueIdentifier>
+      <UniqueIdentifier>{F6BF0F55-7BA7-4039-BF4A-18DBCC571513}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\HotPatcherCore.Build.cs">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes">
-      <UniqueIdentifier>{3D7A7BAD-4B83-4A2F-ABC1-68851A75CEA9}</UniqueIdentifier>
+      <UniqueIdentifier>{A09B6CC8-4BFF-4C75-9D39-0E5B4F580A28}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets">
-      <UniqueIdentifier>{FC80F2BC-CD02-4F08-9638-853C562CA3BD}</UniqueIdentifier>
+      <UniqueIdentifier>{DF47BEFE-37AA-47CB-AC9E-3CDE8D6613C8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\CommandletHelper.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
@@ -123,7 +123,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker">
-      <UniqueIdentifier>{FD6628D9-9761-4576-A554-2002CB587CC2}</UniqueIdentifier>
+      <UniqueIdentifier>{56ADA8E0-6A51-421B-B857-0B4FEA636298}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker\HotCookerCommandlet.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
@@ -138,7 +138,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Classes\Commandlets\Cooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private">
-      <UniqueIdentifier>{401E60DC-135C-48C9-85FB-1AAA2774BE41}</UniqueIdentifier>
+      <UniqueIdentifier>{B7344E95-3EA0-492B-93DA-D44E430F0537}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\FlibHotPatcherCoreHelper.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private</Filter>
@@ -150,10 +150,10 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker">
-      <UniqueIdentifier>{FDA937CF-D9B8-414E-8CA7-B5A63650F731}</UniqueIdentifier>
+      <UniqueIdentifier>{AA790D4C-382F-4172-A2FE-5D8B0512BE27}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker">
-      <UniqueIdentifier>{CC4A9C5D-4600-4D65-B625-68A80E62C4CD}</UniqueIdentifier>
+      <UniqueIdentifier>{8C3EED82-CF5A-496A-B1B1-8FE1BD0AE968}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker\FlibHotCookerHelper.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker</Filter>
@@ -162,7 +162,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\Cooker\MultiCooker</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch">
-      <UniqueIdentifier>{5E06DA1E-5BDF-4E82-A813-D46B3A34EEE7}</UniqueIdentifier>
+      <UniqueIdentifier>{D0CB4FC1-51D9-4C8A-BF0B-134854A069A8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch\PatcherProxy.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch</Filter>
@@ -171,13 +171,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\CreatePatch</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature">
-      <UniqueIdentifier>{20E4A89B-0985-43FA-980D-A4FDCA17C7BA}</UniqueIdentifier>
+      <UniqueIdentifier>{C941A3E5-6A08-40D9-9319-2001AEBC9E6D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature\GameFeatureProxy.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\GameFeature</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch">
-      <UniqueIdentifier>{F8BC5915-E17C-4AB1-A186-0D232CB157EF}</UniqueIdentifier>
+      <UniqueIdentifier>{0A22D3D1-A3A7-428F-A23C-772EAA724AC8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch\FCookShaderCollectionProxy.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
@@ -192,7 +192,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Private\ShaderPatch</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public">
-      <UniqueIdentifier>{00B396F9-2ABC-4A37-B8CD-8DF30184BC04}</UniqueIdentifier>
+      <UniqueIdentifier>{0C64F040-3A86-43A0-BC63-7347F07BCDD2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\FlibHotPatcherCoreHelper.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
@@ -207,7 +207,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase">
-      <UniqueIdentifier>{8F381A5B-0ACB-4B0F-8889-D5E12507B1E7}</UniqueIdentifier>
+      <UniqueIdentifier>{F1889224-8535-4974-BCF8-A1393B91CF9F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase\CommandletHelper.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase</Filter>
@@ -216,13 +216,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CommandletBase</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker">
-      <UniqueIdentifier>{54368BEC-A14A-471A-930F-A4FDA92EB01A}</UniqueIdentifier>
+      <UniqueIdentifier>{3E6B9779-B4EA-4814-8D5A-7F71809154D9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\HotPatcherCookerSettingBase.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker">
-      <UniqueIdentifier>{6F5C9A66-BDBB-4550-B659-293DE00CC025}</UniqueIdentifier>
+      <UniqueIdentifier>{D44BA42E-9983-4E57-B941-715A2ADB3295}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker\FCookShaderCollectionProxy.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
@@ -237,7 +237,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\Cooker\MultiCooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch">
-      <UniqueIdentifier>{883B98A5-F61C-4722-B3BE-08E1530EA327}</UniqueIdentifier>
+      <UniqueIdentifier>{ADAD9191-9B10-4004-9F13-A8C1BC2717AF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch\HotPatcherProxyBase.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
@@ -255,7 +255,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\CreatePatch</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature">
-      <UniqueIdentifier>{71B00F2B-7141-4F2B-992F-E1AA1EAB4851}</UniqueIdentifier>
+      <UniqueIdentifier>{584A568F-6772-427A-A661-94895C6217D4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature\FGameFeaturePackagerSettings.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature</Filter>
@@ -264,7 +264,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\GameFeature</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch">
-      <UniqueIdentifier>{3611A274-C62E-4267-8C2E-4119C9789AC5}</UniqueIdentifier>
+      <UniqueIdentifier>{78D1D67C-40C5-42A9-A134-A24052409A36}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch\FExportShaderPatchSettings.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
@@ -279,7 +279,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ShaderPatch</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils">
-      <UniqueIdentifier>{D6843439-91A8-4F6C-B0A1-8812FDB363CD}</UniqueIdentifier>
+      <UniqueIdentifier>{12A43C3A-C4E3-4C92-9297-65F4242F8223}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils\FProcWorkerThread.hpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils</Filter>
@@ -288,13 +288,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherCore\Public\ThreadUtils</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor">
-      <UniqueIdentifier>{8D0179F3-08DA-4FA4-8A3E-985B3E4359EF}</UniqueIdentifier>
+      <UniqueIdentifier>{EDA7FEFF-05E9-4308-86B9-29351105D553}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\HotPatcherEditor.Build.cs">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private">
-      <UniqueIdentifier>{BC4EBB80-407B-4A03-AAE1-176E223411DD}</UniqueIdentifier>
+      <UniqueIdentifier>{83E4C84B-23CA-4804-B3C0-A3D5449BDFEC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\FlibHotPatcherEditorHelper.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
@@ -327,7 +327,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker">
-      <UniqueIdentifier>{3835D518-B280-4A74-AD0A-ADC82EAF6622}</UniqueIdentifier>
+      <UniqueIdentifier>{FD00FCD8-EC3A-438A-9CB3-4F29B367697E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\SCookersPage.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker</Filter>
@@ -336,7 +336,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker">
-      <UniqueIdentifier>{91D2A989-FB03-4A41-BEAE-081F8A8849EC}</UniqueIdentifier>
+      <UniqueIdentifier>{C64659EC-CE65-4E78-B1BF-D15A4C326F5F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker\IOriginalCookerChildWidget.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
@@ -384,7 +384,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\Cooker\OriginalCooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch">
-      <UniqueIdentifier>{846CE87D-8D46-4FE1-B5DC-2E9AD101B84E}</UniqueIdentifier>
+      <UniqueIdentifier>{20EFB9B8-7090-4116-A4D9-10C42ED41276}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\ReleaseSettingsDetails.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
@@ -402,7 +402,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions">
-      <UniqueIdentifier>{B7A19006-DB82-4C85-A1EC-69210DA94195}</UniqueIdentifier>
+      <UniqueIdentifier>{BA67E0D7-7867-4785-B8F8-40C9DF12B418}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions\AssetTypeActions_PrimaryAssetLabel.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions</Filter>
@@ -411,7 +411,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\CreatePatch\AssetActions</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature">
-      <UniqueIdentifier>{D0DA1339-9070-4F13-ACC8-3C85D4ED5DF3}</UniqueIdentifier>
+      <UniqueIdentifier>{8F41DEEF-0831-44B6-B16F-6FB0B17BDAE6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature\SGameFeaturePackageWidget.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature</Filter>
@@ -420,13 +420,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\GameFeature</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch">
-      <UniqueIdentifier>{F9D765CB-0448-4953-9A07-6F634F64E27A}</UniqueIdentifier>
+      <UniqueIdentifier>{C15ED156-D5B3-4FD1-AA0F-EDB75105D31E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch\SShaderPatchWidget.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\ShaderPatch</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater">
-      <UniqueIdentifier>{E6154E71-26CA-4836-AEB1-452C4355EA22}</UniqueIdentifier>
+      <UniqueIdentifier>{72785552-04E4-469D-B7E4-EE498DD6F8B6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater\SVersionUpdaterWidget.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
@@ -441,7 +441,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Private\SVersionUpdater</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public">
-      <UniqueIdentifier>{69E4A033-5D58-46AC-B138-962DC1CD068C}</UniqueIdentifier>
+      <UniqueIdentifier>{E6CD0D70-7059-40D8-A0F0-AA62AE6F9253}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\FlibHotPatcherEditorHelper.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
@@ -468,13 +468,13 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker">
-      <UniqueIdentifier>{A14C5244-558B-4730-B561-C4ADA4F58E41}</UniqueIdentifier>
+      <UniqueIdentifier>{CA4EAF8E-D972-4E36-857A-8AD70C901C12}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker\SHotPatcherCookerBase.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Cooker</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch">
-      <UniqueIdentifier>{5C1F44F9-79C2-4637-9FBE-898A396FD119}</UniqueIdentifier>
+      <UniqueIdentifier>{25F573B2-954B-45D7-84B6-E6210C2E0014}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch\SHotPatcherInformations.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
@@ -489,7 +489,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\CreatePatch</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model">
-      <UniqueIdentifier>{8599C81C-9DBF-4682-8CE8-B50F34A56B2B}</UniqueIdentifier>
+      <UniqueIdentifier>{C2084D00-F3E5-4467-8B92-1F3D320A24FB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model\FCookersModeContext.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
@@ -504,19 +504,19 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\Model</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch">
-      <UniqueIdentifier>{BEA6BDF2-AAC7-4BF1-B0CC-3147552ED967}</UniqueIdentifier>
+      <UniqueIdentifier>{17543074-0125-45FB-B9B6-2B2A4C738B94}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch\SShaderPatchWidget.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherEditor\Public\ShaderPatch</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime">
-      <UniqueIdentifier>{F5B652F8-7EC9-41F7-A4CC-19DEB730AB05}</UniqueIdentifier>
+      <UniqueIdentifier>{CDE0EF0E-0544-4B93-8163-2D10A6340390}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\HotPatcherRuntime.Build.cs">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private">
-      <UniqueIdentifier>{DD88EA3D-5A7C-4FEB-B389-242C3112C71B}</UniqueIdentifier>
+      <UniqueIdentifier>{A42D233C-3ADC-4D43-9B2D-A00B275BF0EE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\FlibAssetManageHelper.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
@@ -546,19 +546,19 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes">
-      <UniqueIdentifier>{053DD505-24B0-4802-9563-3915F6B8E7C3}</UniqueIdentifier>
+      <UniqueIdentifier>{2D0CCD78-A17B-473D-9386-0846BFFFD00B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\FBinariesPatchConfig.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager">
-      <UniqueIdentifier>{F49D8F5D-73C0-49E9-A84E-BEC0DA590DF2}</UniqueIdentifier>
+      <UniqueIdentifier>{1F85DC1A-B26F-46E0-9D6B-E7E52262B138}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager\FAssetDependenciesInfo.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\BaseTypes\AssetManager</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch">
-      <UniqueIdentifier>{A5BA5B57-CD80-4E19-AF31-B2257CFFFDD5}</UniqueIdentifier>
+      <UniqueIdentifier>{DE987756-8171-4601-A267-8E8A560A03D5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch\FExportPatchSettings.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
@@ -573,7 +573,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\CreatePatch</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser">
-      <UniqueIdentifier>{8B5C5845-8B32-4206-9166-9856CFFDF59D}</UniqueIdentifier>
+      <UniqueIdentifier>{0BD23864-4FD2-4F6B-A7B3-AE5829923A59}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser\FDefaultAssetDependenciesParser.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser</Filter>
@@ -582,7 +582,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\DependenciesParser</Filter>
     </ClCompile>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser">
-      <UniqueIdentifier>{088853F5-9015-473A-BE22-C50374384980}</UniqueIdentifier>
+      <UniqueIdentifier>{66F65622-D8F8-4A86-B8E9-E57BB13E203E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser\FReleasePaklistParser.cpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
@@ -600,7 +600,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Private\ReleaseParser</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public">
-      <UniqueIdentifier>{D590CA41-E01F-4E62-A5D5-D1BFB88EB511}</UniqueIdentifier>
+      <UniqueIdentifier>{59111B7E-1B72-45F6-BE7F-012EFD03EE78}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\FlibAssetManageHelper.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
@@ -621,7 +621,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes">
-      <UniqueIdentifier>{B5F995FB-84AF-4544-9279-8DF400CC6F7A}</UniqueIdentifier>
+      <UniqueIdentifier>{1DA78895-902A-439A-BC0B-CEEE61F9079A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\EPatcherPhase.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
@@ -705,7 +705,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager">
-      <UniqueIdentifier>{18A27E5A-BD66-4524-B572-EEF0EEC9B6B7}</UniqueIdentifier>
+      <UniqueIdentifier>{7EF66021-4195-49E0-A21F-87EDF2F2AF15}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager\FAssetDependenciesDetail.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
@@ -720,7 +720,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\BaseTypes\AssetManager</Filter>
     </None>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch">
-      <UniqueIdentifier>{F86C304B-25C4-421B-A15F-9193D1B1027C}</UniqueIdentifier>
+      <UniqueIdentifier>{6A10054E-7587-4264-BAB9-C8D5AC8F802A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch\FExportPatchSettings.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
@@ -741,7 +741,7 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\CreatePatch</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser">
-      <UniqueIdentifier>{F7484111-67D3-4400-821A-3A264256BC36}</UniqueIdentifier>
+      <UniqueIdentifier>{AEE004E2-C29B-43C1-AFF7-F2B156EAF068}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser\FDefaultAssetDependenciesParser.h">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser</Filter>
@@ -753,61 +753,55 @@
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\DependenciesParser</Filter>
     </ClInclude>
     <Filter Include="Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates">
-      <UniqueIdentifier>{57212457-8EEE-4A05-83AB-359C594E723C}</UniqueIdentifier>
+      <UniqueIdentifier>{FF3A618B-CB7A-495C-94C8-F2A2F98637B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates\HotPatcherTemplateHelper.hpp">
       <Filter>Plugins\HotPatcher\HotPatcher\Source\HotPatcherRuntime\Public\Templates</Filter>
     </None>
     <Filter Include="Plugins\PackMenu\Source">
-      <UniqueIdentifier>{DE1820D4-9E82-43E3-9DF2-5AD6FFF53A28}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\PackMenu\Source\PackMenu">
-      <UniqueIdentifier>{0C159D42-B613-42CD-866F-0924C3FF384E}</UniqueIdentifier>
+      <UniqueIdentifier>{AA7D02AA-AD49-4BD9-BB98-9E96410928D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PackMenu\Source\PackMenu\PackMenu.Build.cs">
-      <Filter>Plugins\PackMenu\Source\PackMenu</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor</Filter>
     </None>
-    <Filter Include="Plugins\PackMenu\Source\PackMenu\Private">
-      <UniqueIdentifier>{446EDEE6-7B2D-4E1B-95A0-4EEBF077C865}</UniqueIdentifier>
-    </Filter>
     <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenu.cpp">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenuCommands.cpp">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\PackMenuStyle.cpp">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookers.cpp">
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookers.h">
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookPackInfoMation.cpp">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\SCookPackInfoMation.h">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private</Filter>
     </ClInclude>
-    <Filter Include="Plugins\PackMenu\Source\PackMenu\Private\CookPage">
-      <UniqueIdentifier>{CD614E9B-3440-499A-A772-27102C77481E}</UniqueIdentifier>
-    </Filter>
     <ClCompile Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\CookPage\CookPage.cpp">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private\CookPage</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private\CookPage</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Private\CookPage\CookPage.h">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Private\CookPage</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Private\CookPage</Filter>
     </ClInclude>
-    <Filter Include="Plugins\PackMenu\Source\PackMenu\Public">
-      <UniqueIdentifier>{61A62BE8-7EAD-4566-B9D8-BD650941B908}</UniqueIdentifier>
-    </Filter>
     <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenu.h">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenuCommands.h">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\PackMenu\Source\PackMenu\Public\PackMenuStyle.h">
-      <Filter>Plugins\PackMenu\Source\PackMenu\Public</Filter>
+      <Filter>Plugins\PackMenu\Source\PackMenuEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Source\UnRealPatchTest">
-      <UniqueIdentifier>{1EC81780-0D18-4E2D-96BA-8801B04006AD}</UniqueIdentifier>
+      <UniqueIdentifier>{05F95688-E043-4A8F-9F81-D64FC1FA0557}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnRealPatchTest\MyActor.cpp">
       <Filter>Source\UnRealPatchTest</Filter>
@@ -830,5 +824,19 @@
     <ClInclude Include="..\..\Source\UnRealPatchTest\UnRealPatchTestGameModeBase.h">
       <Filter>Source\UnRealPatchTest</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Plugins\PackMenu\Source\PackMenuEditor">
+      <UniqueIdentifier>{D31BBAB6-C47A-4CD6-B08A-4B5C3D37E0DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PackMenu\Source\PackMenuEditor\Private">
+      <UniqueIdentifier>{2AB1C519-27DA-4CE0-9827-EDF904E2E7F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PackMenu\Source\PackMenuEditor\Private\CookPage">
+      <UniqueIdentifier>{010BDF88-027F-4E35-B95C-0124AFA49188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PackMenu\Source\PackMenuEditor\Public">
+      <UniqueIdentifier>{BF9F9250-CA20-472C-8043-7A331D89640A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
