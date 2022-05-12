@@ -76,7 +76,4 @@ DerivedDataCache/*
 #忽略的目录
 Binaries/
 Build/
-DerivedDataCache/
-Intermediate/
-packages/
 Saved/
