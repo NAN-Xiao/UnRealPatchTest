@@ -1,0 +1,174 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "PackMenu.h"
+#include "PackMenuStyle.h"
+#include "PackMenuCommands.h"
+#include "LevelEditor.h"
+#include "Widgets/Input/SHyperlink.h"
+#include "Widgets/Layout/SBorder.h"
+#include "Widgets/Images/SImage.h"
+#include "Widgets/Layout/SBox.h"
+#include "Widgets/Layout/SScrollBox.h"
+#include "Widgets/SBoxPanel.h"
+#include "ToolMenus.h"
+#include "CookPage/CookPage.h"
+static const FName PackMenuTabName("PackMenu");
+
+#define LOCTEXT_NAMESPACE "FPackMenuModule"
+
+void FPackMenuModule::StartupModule()
+{
+	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+
+	FPackMenuStyle::Initialize();
+	FPackMenuStyle::ReloadTextures();
+
+	FPackMenuCommands::Register();
+
+	PluginCommands = MakeShareable(new FUICommandList);
+
+	PluginCommands->MapAction(
+		FPackMenuCommands::Get().OpenPluginWindow,
+		FExecuteAction::CreateRaw(this, &FPackMenuModule::PluginButtonClicked),
+		FCanExecuteAction());
+
+	UToolMenus::RegisterStartupCallback(FSimpleMulticastDelegate::FDelegate::CreateRaw(this, &FPackMenuModule::RegisterMenus));
+
+	FGlobalTabmanager::Get()->RegisterNomadTabSpawner(PackMenuTabName, FOnSpawnTab::CreateRaw(this, &FPackMenuModule::OnSpawnPluginTab))
+		.SetDisplayName(LOCTEXT("FPackMenuTabTitle", "PackMenu"))
+		.SetMenuType(ETabSpawnerMenuType::Hidden);
+}
+
+void FPackMenuModule::ShutdownModule()
+{
+	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
+	// we call this function before unloading the module.
+
+	UToolMenus::UnRegisterStartupCallback(this);
+
+	UToolMenus::UnregisterOwner(this);
+
+	FPackMenuStyle::Shutdown();
+
+	FPackMenuCommands::Unregister();
+
+	FGlobalTabmanager::Get()->UnregisterNomadTabSpawner(PackMenuTabName);
+}
+
+void FPackMenuModule::OnTabClosed(TSharedRef<SDockTab> InTab)
+{
+	FPackMenuModule::DockTab.Reset();
+}
+
+
+TSharedRef<SDockTab> FPackMenuModule::OnSpawnPluginTab(const FSpawnTabArgs& SpawnTabArgs)
+{
+
+	return SAssignNew(DockTab, SDockTab)
+		.TabRole(ETabRole::NumRoles)
+		.Label(LOCTEXT("Cook&PackTable", "Cook&Pack"))
+		.ToolTipText(LOCTEXT("Cook&PackTableTips", "Cook&Pack Tools"))
+		.OnTabClosed(SDockTab::FOnTabClosedCallback::CreateRaw(this, &FPackMenuModule::OnTabClosed))
+		.Clipping(EWidgetClipping::ClipToBounds)
+		[
+			SNew(CookPage)
+		];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//FText WidgetText = FText::Format(
+	//	LOCTEXT("WindowWidgetText", "Add code to {0} in {1} to override this window's contents"),
+	//	FText::FromString(TEXT("FPackMenuModule::OnSpawnPluginTab")),
+	//	FText::FromString(TEXT("PackMenu.cpp"))
+	//);
+
+	//return SNew(SDockTab)
+	//	.TabRole(ETabRole::NomadTab)
+	//	[
+	//		
+	//			SNew(SBorder)
+	//			.Padding(2)
+	//	[
+	//		SNew(SHorizontalBox)
+	//		+ SHorizontalBox::Slot()
+	//	.FillWidth(10.0f)
+	//	.VAlign(VAlign_Center)
+	//	.Padding(4.0f, 0.0f, 4.0f, 0.0f)
+	//	[
+
+	//		SNew(SHorizontalBox)
+	//		+ SHorizontalBox::Slot()
+	//	.AutoWidth()
+	//	.VAlign(VAlign_Center)
+	//	[
+	//		SNew(SBox)
+	//		.WidthOverride(40)
+	//	.HeightOverride(40)
+	//	[
+	//	
+	//			SNew(STextBlock)
+	//			.Text_Raw(this, &FPackMenuModule::GetTitle)
+	//		
+	//	]
+	//	
+	//	]
+	//	]
+	////// Put your tab content here!
+	////SNew(SBox)
+	////.HAlign(HAlign_Center)
+	////.VAlign(VAlign_Center)
+	////[
+	////	SNew(STextBlock)
+	////	.Text(WidgetText)
+	////]
+	//		]
+	//		];
+}
+
+void FPackMenuModule::PluginButtonClicked()
+{
+	FGlobalTabmanager::Get()->TryInvokeTab(PackMenuTabName);
+}
+
+void FPackMenuModule::RegisterMenus()
+{
+	// Owner will be used for cleanup in call to UToolMenus::UnregisterOwner
+	FToolMenuOwnerScoped OwnerScoped(this);
+
+	{
+		UToolMenu* Menu = UToolMenus::Get()->ExtendMenu("LevelEditor.MainMenu.Window");
+		{
+			FToolMenuSection& Section = Menu->FindOrAddSection("WindowLayout");
+			Section.AddMenuEntryWithCommandList(FPackMenuCommands::Get().OpenPluginWindow, PluginCommands);
+		}
+	}
+
+	{
+		UToolMenu* ToolbarMenu = UToolMenus::Get()->ExtendMenu("LevelEditor.LevelEditorToolBar");
+		{
+			FToolMenuSection& Section = ToolbarMenu->FindOrAddSection("Settings");
+			{
+				FToolMenuEntry& Entry = Section.AddEntry(FToolMenuEntry::InitToolBarButton(FPackMenuCommands::Get().OpenPluginWindow));
+				Entry.SetCommandList(PluginCommands);
+			}
+		}
+	}
+}
+
+#undef LOCTEXT_NAMESPACE
+
+IMPLEMENT_MODULE(FPackMenuModule, PackMenu)

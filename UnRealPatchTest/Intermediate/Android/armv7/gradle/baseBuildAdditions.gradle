@@ -1,9 +1,0 @@
-			allprojects {
-			repositories {
-			repositories {
-			flatDir {
-dirs 'D:/Project/github/UnrealEngine-4.27.2-release/Engine/Source/ThirdParty/GoogleGameSDK/gamesdk/aar'
-			}
-			}
-			}
-			}

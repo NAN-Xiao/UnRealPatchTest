@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{95F28EC4-48FD-4308-0B46-639123851D21}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnRealPatchTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"Slate",
+				"SlateCore"
+			]
+		}
+	]
+}
