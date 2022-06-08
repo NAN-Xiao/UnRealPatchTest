@@ -5,14 +5,13 @@
 #include "CoreMinimal.h"
 #include "Styling/SlateWidgetStyle.h"
 #include "Styling/SlateWidgetStyleContainerBase.h"
-
 #include "CookPackWidgetStyle.generated.h"
 
 /**
  * 
  */
 USTRUCT()
-struct PACKMENU_API FCookPackStyle : public FSlateWidgetStyle
+struct PACKMENUEDITOR_API FCookPackStyle : public FSlateWidgetStyle
 {
 	GENERATED_USTRUCT_BODY()
 

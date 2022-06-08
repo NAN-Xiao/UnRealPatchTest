@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class PackMenu : ModuleRules
+public class PackMenuEditor : ModuleRules
 {
-	public PackMenu(ReadOnlyTargetRules Target) : base(Target)
+	public PackMenuEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		

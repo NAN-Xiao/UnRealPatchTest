@@ -8,7 +8,7 @@
 class FToolBarBuilder;
 class FMenuBuilder;
 
-class FPackMenuModule : public IModuleInterface
+class FPackMenuEditorModule : public IModuleInterface
 {
 public:
 

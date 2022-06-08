@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "PackMenu.h"
+#include "PackMenuEditor.h"
 #include "PackMenuStyle.h"
 #include "PackMenuCommands.h"
 #include "LevelEditor.h"
@@ -16,7 +16,7 @@ static const FName PackMenuTabName("PackMenu");
 
 #define LOCTEXT_NAMESPACE "FPackMenuModule"
 
-void FPackMenuModule::StartupModule()
+void FPackMenuEditorModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 
@@ -29,17 +29,17 @@ void FPackMenuModule::StartupModule()
 
 	PluginCommands->MapAction(
 		FPackMenuCommands::Get().OpenPluginWindow,
-		FExecuteAction::CreateRaw(this, &FPackMenuModule::PluginButtonClicked),
+		FExecuteAction::CreateRaw(this, &FPackMenuEditorModule::PluginButtonClicked),
 		FCanExecuteAction());
 
-	UToolMenus::RegisterStartupCallback(FSimpleMulticastDelegate::FDelegate::CreateRaw(this, &FPackMenuModule::RegisterMenus));
+	UToolMenus::RegisterStartupCallback(FSimpleMulticastDelegate::FDelegate::CreateRaw(this, &FPackMenuEditorModule::RegisterMenus));
 
-	FGlobalTabmanager::Get()->RegisterNomadTabSpawner(PackMenuTabName, FOnSpawnTab::CreateRaw(this, &FPackMenuModule::OnSpawnPluginTab))
+	FGlobalTabmanager::Get()->RegisterNomadTabSpawner(PackMenuTabName, FOnSpawnTab::CreateRaw(this, &FPackMenuEditorModule::OnSpawnPluginTab))
 		.SetDisplayName(LOCTEXT("FPackMenuTabTitle", "PackMenu"))
 		.SetMenuType(ETabSpawnerMenuType::Hidden);
 }
 
-void FPackMenuModule::ShutdownModule()
+void FPackMenuEditorModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -55,20 +55,20 @@ void FPackMenuModule::ShutdownModule()
 	FGlobalTabmanager::Get()->UnregisterNomadTabSpawner(PackMenuTabName);
 }
 
-void FPackMenuModule::OnTabClosed(TSharedRef<SDockTab> InTab)
+void FPackMenuEditorModule::OnTabClosed(TSharedRef<SDockTab> InTab)
 {
-	FPackMenuModule::DockTab.Reset();
+	FPackMenuEditorModule::DockTab.Reset();
 }
 
 
-TSharedRef<SDockTab> FPackMenuModule::OnSpawnPluginTab(const FSpawnTabArgs& SpawnTabArgs)
+TSharedRef<SDockTab> FPackMenuEditorModule::OnSpawnPluginTab(const FSpawnTabArgs& SpawnTabArgs)
 {
 
 	return SAssignNew(DockTab, SDockTab)
 		.TabRole(ETabRole::NumRoles)
 		.Label(LOCTEXT("Cook&PackTable", "Cook&Pack"))
 		.ToolTipText(LOCTEXT("Cook&PackTableTips", "Cook&Pack Tools"))
-		.OnTabClosed(SDockTab::FOnTabClosedCallback::CreateRaw(this, &FPackMenuModule::OnTabClosed))
+		.OnTabClosed(SDockTab::FOnTabClosedCallback::CreateRaw(this, &FPackMenuEditorModule::OnTabClosed))
 		.Clipping(EWidgetClipping::ClipToBounds)
 		[
 			SNew(CookPage)
@@ -139,12 +139,12 @@ TSharedRef<SDockTab> FPackMenuModule::OnSpawnPluginTab(const FSpawnTabArgs& Spaw
 	//		];
 }
 
-void FPackMenuModule::PluginButtonClicked()
+void FPackMenuEditorModule::PluginButtonClicked()
 {
 	FGlobalTabmanager::Get()->TryInvokeTab(PackMenuTabName);
 }
 
-void FPackMenuModule::RegisterMenus()
+void FPackMenuEditorModule::RegisterMenus()
 {
 	// Owner will be used for cleanup in call to UToolMenus::UnregisterOwner
 	FToolMenuOwnerScoped OwnerScoped(this);
@@ -171,4 +171,4 @@ void FPackMenuModule::RegisterMenus()
 
 #undef LOCTEXT_NAMESPACE
 
-IMPLEMENT_MODULE(FPackMenuModule, PackMenu)
+IMPLEMENT_MODULE(FPackMenuEditorModule, PackMenu)
